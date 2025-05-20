@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({ 
-  baseURL: "process.env.REACT_APP_API_URL",
+  baseURL: "https://prog-hub-server.onrender.com/api",
   headers:{"Content-Type":"application/json"}
  });
 
